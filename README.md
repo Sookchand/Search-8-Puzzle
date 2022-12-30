@@ -1,9 +1,11 @@
 
-# Image Processing Segmentation
+# Search 8 Puzzle Problem
+This is a solution to the 8-puzzle problem using the A* search algorithm. The 8-puzzle is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. The goal of the puzzle is to rearrange the tiles to form a particular configuration.
 
-This project is a demonstration of the instance segmentation using the PixelLib library. PixelLib is a Python library for image segmentation that uses the Mask R-CNN model to instance segment images.
+The A* search algorithm is used to find the optimal solution to the 8-puzzle problem. The algorithm works by exploring the search tree and expanding the most promising nodes. The algorithm uses a heuristic to determine which nodes are the most promising. In this case, the heuristic used is the number of misplaced tiles.
 ## Acknowledgements
 Brunel University London
+
 ## Authors
 
 - [@Sookchand](https://github.com/Sookchand)
@@ -11,32 +13,23 @@ Brunel University London
 
 ## Demo
 
-![image](https://user-images.githubusercontent.com/34344439/210080859-a081ffba-2a12-4303-a396-bf1f975c6cf3.png)
+Insert gif or link to demo
 
 
 ## Tech Stack
-- Python
-- TensorFlow
-- Mask R-CNN
 
+The tech stack used for this solution is Python and SimpleAI. SimpleAI is a Python library for Artificial Intelligence. It provides various search algorithms, such as A*, Greedy, Breadth-First, and Depth-First.
 
 ## Documentation
-
-- PixelLib Library: https://pixellib.readthedocs.io/en/latest/
-- TensorFlow: https://www.tensorflow.org/
-- Mask R-CNN: https://github.com/matterport/Mask_RCNN
-
+The documentation for this solution and tech stack can be found in the SimpleAI documentation. The documentation provides an overview of the library, as well as detailed information on the various search algorithms available.
 ## Lessons Learned
-
-- Instance segmentation is the process of segmenting out individual objects in an image.
-- PixelLib is a library that makes it easy to use Mask R-CNN to perform instance segmentation.
-- The Mask R-CNN architecture is composed of a feature extractor, region proposal network and a classification layer.
-- When training a model, it is important to consider the data quality, the hyperparameters and the model architecture.
+- The lessons learned from this solution are the importance of heuristics in search algorithms, and the power of the A* search algorithm.
+- The heuristic used in this solution was the number of misplaced tiles, which helped the algorithm find the optimal solution.
+-  The A* search algorithm was able to find the optimal solution in a relatively short amount of time.
 # Hi, I'm Sookchand! 👋
+
 To be better than yesterday, better than the last hour, even to be better than the last
 minute.
-
-
 ## 🚀 About Me
 I have experience as a data scientist and machine learning engineer. I have worked on
 projects involving the development of predictive models, the optimization of machine
@@ -53,4 +46,3 @@ Google Collab, Python, R, HTML, CSS, Node.js, JavaScript, Tableau, Power BI, HTM
 Bootstrap 4, JavaScript ES6, DOM, JQUERY, Unix Command-Line, Node.js, Express.js with Node.js,
 APIs, Git, GitHub and Version control, EJS, Database- SQL, Mongo DB, Mongoose, Authentication and
 Security, react.js
-
